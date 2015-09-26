@@ -1,5 +1,4 @@
-library(UsingR)
-data(galton)
+
 
 childrenHeight <- function(Parent1Input,Parent2Input) mean(c(Parent1Input, Parent2Input))
 shinyServer(function(input, output){
