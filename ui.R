@@ -2,7 +2,7 @@ shinyUI( pageWithSidebar(
   # Application title 
   headerPanel("Children's height prediction"),
   sidebarPanel(
-    h5('We will predict the height of the children considering the height of the parents. Please input the height values.'),
+    h5('We will predict the height of the children considering the height of the parents. Please input the height values and click submit.'),
     numericInput('Parent1Input', 'Height for parent 1 (cms)', 170, min = 140, max = 220, step = 1),
     numericInput('Parent2Input', 'Height for parent 2 (cms)', 170, min = 140, max = 220, step = 1), 
     submitButton('Submit')),
